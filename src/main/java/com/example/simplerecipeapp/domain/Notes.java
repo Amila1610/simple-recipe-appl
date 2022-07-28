@@ -9,7 +9,7 @@ public class Notes {
     private Long id;
 
     @OneToOne
-    private Recipe recipe;
+    private  Recipe recipe;
     @Lob
     private String recipeNotes;
 
